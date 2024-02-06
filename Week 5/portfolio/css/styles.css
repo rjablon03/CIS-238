@@ -1,0 +1,68 @@
+/*
+Author: Ryan Jablonski
+Date: 2/5/24
+File: styles.css
+*/
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Style rules for the body */
+body {
+    background-color: #f8f8fc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style rules for the header section */
+header {
+    background-color: #43b0c7;
+    text-align: center;
+    color: #ffff;
+}
+
+/* Style rules for the nav section */
+nav {
+    background-color: #43b0c7;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size: 1.3em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* Style rules for the main section */
+main p {
+    font-size: 1.5em;
+    padding: 1.5em 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    float: right;
+}
+
+/* Style rules for the footer section */
+footer {
+    text-align: center;
+    background-color: #59c9e1;
+    padding: 1em;
+    clear: both;
+}
