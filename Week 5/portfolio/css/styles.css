@@ -48,15 +48,20 @@ nav li a {
 }
 
 /* Style rules for the main section */
+main {
+    margin-bottom: 13em;
+}
+
 main p {
     font-size: 1.5em;
-    padding: 1.5em 0;
+    padding: 2em 0;
 }
 
 img {
     display: block;
     max-width: 100%;
     float: right;
+    margin-left: 10em;
 }
 
 /* Style rules for the footer section */
