@@ -1,0 +1,118 @@
+/*
+Author: Ryan Jablonski
+Date: 2/6/24
+File: styles.css
+*/
+
+
+/*  CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Style rules for the body section */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style rules for the header section */
+header {
+    text-align: center;
+    color: #fff;
+    background-color: #7cb9e8;
+}
+
+/*  Style rules for the nav section */
+nav {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #7cb9e8;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-size: 1.3em;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Style rules for the main section */
+main {
+    margin: 100px 0;
+}
+
+.main-content {
+    width: 70%;
+    float: left;
+}
+
+.main-content p {
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+#facts {
+    text-align: center;
+}
+
+#facts ul {
+    list-style-type: none;
+    font-size: 1.3em;
+    margin: 1.25em 0;
+}
+
+#facts li {
+    margin: 1.25em;
+}
+
+#map {
+    border: #000 solid .3em;
+}
+
+#map-container.main-content {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 50px;
+}
+
+/* Style rules for the footer */
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 55px 0;
+    background-color: #7cb9e8;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+}
