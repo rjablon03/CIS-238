@@ -31,7 +31,7 @@ header {
 /*  Style rules for the nav section */
 nav {
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25em 0;
     background-color: #7cb9e8;
 }
 
@@ -40,9 +40,9 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
-    padding: 5px 20px;
-    margin: 0 10px;
+    /*display: inline-block;*/
+    padding: .2em .5em;
+    margin: 1em .5em;
     font-size: 1.3em;
     border-radius: 20px;
     background-color: #fff;
@@ -55,16 +55,16 @@ nav li a {
 
 /* Style rules for the main section */
 main {
-    margin: 100px 0;
+    margin: 2em 0;
 }
 
-.main-content {
+/* .main-content {
     width: 70%;
     float: left;
-}
+} */
 
 .main-content p {
-    padding: 30px;
+    padding: 1em;
     font-size: 1.3em;
 }
 
@@ -83,13 +83,14 @@ main {
 }
 
 #map {
-    border: #000 solid .3em;
+    /* border: #000 solid .3em; */
+    max-width: 100%;
 }
 
 #map-container.main-content {
     text-align: center;
-    width: 100%;
-    margin-bottom: 100px;
+    /* width: 100%; */
+    margin-bottom: 2em;
 }
 
 img {
@@ -100,7 +101,7 @@ img {
 
 /* Style rules for the footer */
 footer {
-    clear: both;
+    /* clear: both; */
     text-align: center;
     font-size: 1.3em;
     padding: 55px 0;
@@ -108,13 +109,13 @@ footer {
 }
 
 footer p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 footer a {
     text-decoration: none;
-    margin: 0 15px;
-    padding: 5px 25px;
+    margin: 0 .93em;
+    padding: .3em 1.3em;
     border-radius: 20px;
     background-color: #fff;
     color: #000;
