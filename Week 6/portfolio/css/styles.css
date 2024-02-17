@@ -17,6 +17,10 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
+.mobile {
+    display: block;
+}
+
 /* Style rules for the header section */
 header {
     text-align: center;
