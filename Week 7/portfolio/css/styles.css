@@ -100,7 +100,8 @@ main {
 img {
     max-width: 100%;
     display: block;
-    border-radius: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
 }
 
 /* Style rules for the footer */
@@ -117,10 +118,48 @@ footer p {
 }
 
 footer a {
-    text-decoration: none;
-    margin: 0 .93em;
-    padding: .3em 1.3em;
+    margin: 5% 5%;
     border-radius: 20px;
+    text-decoration: none;
     background-color: #fff;
     color: #000;
 }
+
+/* Media query for tablet viewport */
+@media screen and (min-width: 630px) {
+
+    /* Tablet viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    /* Tablet viewport: Style rules for the nav area */
+    nav li { /* Left off here */
+        margin: 0;
+        display: inline-block;
+        background-color: #fff;
+        padding: 0 .4em;
+        border-radius: 20px;
+    }
+
+    nav li:last-child {
+        border-right: #fff solid 2px;
+    }
+
+    .skills {
+        width: 80%;
+        margin: 5% auto;
+    }
+
+    .skills h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .skills li {
+        margin: 5%;
+        font-size: 1.3em;
+    }
+}
+
+/* Media query for desktop viewport */
