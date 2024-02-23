@@ -46,7 +46,7 @@ nav ul {
 nav li {
     /*display: inline-block;*/
     padding: .2em .5em;
-    margin: 1em .5em;
+    margin: 1em .6em;
     font-size: 1.3em;
     border-radius: 20px;
     background-color: #fff;
@@ -118,11 +118,13 @@ footer p {
 }
 
 footer a {
-    margin: 5% 5%;
-    border-radius: 20px;
+    display: inline;
     text-decoration: none;
     background-color: #fff;
     color: #000;
+    margin: 0 2%;
+    padding: 5px 15px;
+    border-radius: 20px;
 }
 
 /* Media query for tablet viewport */
@@ -134,18 +136,19 @@ footer a {
     }
 
     /* Tablet viewport: Style rules for the nav area */
-    nav li { /* Left off here */
-        margin: 0;
+    nav li {
         display: inline-block;
+        margin: 0;
         background-color: #fff;
-        padding: 0 .4em;
+        padding: 0 .6em;
         border-radius: 20px;
     }
 
-    nav li:last-child {
-        border-right: #fff solid 2px;
+    nav li:hover {
+        font-size: 1.7em;
     }
 
+    /* Tablet Viewport: Styles rules for main area */
     .skills {
         width: 80%;
         margin: 5% auto;
@@ -160,6 +163,25 @@ footer a {
         margin: 5%;
         font-size: 1.3em;
     }
-}
+
+    #wv, #ky, #nicaragua {
+        margin: 5% 5%;
+        font-size: 1.3em;
+    }
+
+    /* Tablet viewport: Styles rules for footer */
+} /************************* End of Tablet viewport *************************/
 
 /* Media query for desktop viewport */
+@media screen and (min-width: 1015px) {
+    #wv, #ky, #nicaragua {
+        width: 25%;
+        margin: 5% 4%;
+        font-size: 1.3em;
+        float: left;
+    }
+
+    footer {
+        clear: both;
+    }
+}
