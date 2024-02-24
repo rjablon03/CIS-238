@@ -35,7 +35,7 @@ header {
 /*  Style rules for the nav section */
 nav {
     text-align: center;
-    padding: 1.25em 0;
+    padding: 20px 0;
     background-color: #7cb9e8;
 }
 
@@ -94,7 +94,7 @@ main {
 #map-container.main-content {
     text-align: center;
     /* width: 100%; */
-    margin-bottom: 2em;
+    margin: 4%;
 }
 
 img {
@@ -109,8 +109,8 @@ footer {
     /* clear: both; */
     text-align: center;
     font-size: 1.3em;
-    padding: 55px 0;
     background-color: #7cb9e8;
+    padding: 55px 0;
 }
 
 footer p {
@@ -145,31 +145,40 @@ footer a {
     }
 
     nav li:hover {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 
     /* Tablet Viewport: Styles rules for main area */
-    .skills {
+    .is-major {
         width: 80%;
-        margin: 5% auto;
+        margin: 4% auto;
     }
 
-    .skills h2 {
+    .is-major h2 {
         text-align: center;
-        font-size: 2em;
     }
 
-    .skills li {
-        margin: 5%;
+    .is-major p {
+        margin: 3%;
         font-size: 1.3em;
+    }
+
+    .volunteer-info {
+        margin: 0 0;
+    }
+
+    .volunteer-info h2 {
+        text-align: center;
+    }
+
+    .volunteer-heading {
+        font-weight: bold;
     }
 
     #wv, #ky, #nicaragua {
-        margin: 5% 5%;
+        margin: 0 5%;
         font-size: 1.3em;
     }
-
-    /* Tablet viewport: Styles rules for footer */
 } /************************* End of Tablet viewport *************************/
 
 /* Media query for desktop viewport */
