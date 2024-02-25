@@ -152,6 +152,8 @@ footer a {
     .is-major {
         width: 80%;
         margin: 4% auto;
+        background: linear-gradient(#b1b1b1, #fff);
+        border: #000 solid 1px;
     }
 
     .is-major h2 {
@@ -163,16 +165,9 @@ footer a {
         font-size: 1.3em;
     }
 
-    .volunteer-info {
-        margin: 0 0;
-    }
-
     .volunteer-info h2 {
         text-align: center;
-    }
-
-    .volunteer-heading {
-        font-weight: bold;
+        margin-top: 3%;
     }
 
     #wv, #ky, #nicaragua {
@@ -182,15 +177,46 @@ footer a {
 } /************************* End of Tablet viewport *************************/
 
 /* Media query for desktop viewport */
-@media screen and (min-width: 1015px) {
+@media screen and (min-width: 1115px) {
+
+    /*Desktop viewport: Style rules for main section*/
+    img {
+        float: right;
+        margin: 0 7%;
+    }
+
+    .main-content {
+        float: left;
+        width: 50%;
+    }
+
+    .main-content, img {
+        margin-bottom: 5%;
+    }
+
+    .is-major {
+        clear: both;
+    }
+
+    .volunteer-info {
+        clear: both;
+        border-top: #000 solid 2px;
+    }
+
     #wv, #ky, #nicaragua {
         width: 25%;
-        margin: 5% 4%;
+        margin: 2.5% 4%;
         font-size: 1.3em;
         float: left;
     }
 
+    #map-container.main-content {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    /*Desktop viewport: Style rules for footer*/
     footer {
         clear: both;
     }
-}
+} /************************* End of Desktop viewport *************************/
