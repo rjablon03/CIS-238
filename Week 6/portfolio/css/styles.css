@@ -1,0 +1,126 @@
+/*
+Author: Ryan Jablonski
+Date: 2/6/24
+File: styles.css
+*/
+
+/*  CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Style rules for the body section */
+body {
+    background-color: #f0f8ff;
+    font-family: 'poppins', sans-serif;
+}
+
+.mobile {
+    display: block;
+}
+
+/* Style rules for the header section */
+header {
+    text-align: center;
+    color: #fff;
+    background-color: #7cb9e8;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/*  Style rules for the nav section */
+nav {
+    text-align: center;
+    padding: 1.25em 0;
+    background-color: #7cb9e8;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    /*display: inline-block;*/
+    padding: .2em .5em;
+    margin: 1em .5em;
+    font-size: 1.3em;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Style rules for the main section */
+main {
+    margin: 2em 0;
+}
+
+/* .main-content {
+    width: 70%;
+    float: left;
+} */
+
+.main-content p {
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+#facts {
+    text-align: center;
+}
+
+#facts ul {
+    list-style-type: none;
+    font-size: 1.3em;
+    margin: 1.25em 0;
+}
+
+#facts li {
+    margin: 1.25em;
+}
+
+#map {
+    /* border: #000 solid .3em; */
+    max-width: 100%;
+}
+
+#map-container.main-content {
+    text-align: center;
+    /* width: 100%; */
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 50px;
+}
+
+/* Style rules for the footer */
+footer {
+    /* clear: both; */
+    text-align: center;
+    font-size: 1.3em;
+    padding: 55px 0;
+    background-color: #7cb9e8;
+}
+
+footer p {
+    margin-bottom: 1.25em;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 .93em;
+    padding: .3em 1.3em;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+}
