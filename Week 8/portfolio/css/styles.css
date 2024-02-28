@@ -216,6 +216,16 @@ footer a {
         margin: 2% 0;
     }
 
+    .schooling section {
+        margin: 0 0 5% 2%;
+        font-size: 1.3em;
+    }
+
+    .schooling p {
+        margin-bottom: 2%;
+        width: 60%;
+    }
+
     /*Desktop viewport: Style rules for footer*/
     footer {
         clear: both;
