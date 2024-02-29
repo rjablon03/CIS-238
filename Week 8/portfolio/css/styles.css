@@ -32,6 +32,10 @@ header {
     display: none;
 }
 
+.desktop {
+    display: none;
+}
+
 /*  Style rules for the nav section */
 nav {
     text-align: center;
@@ -95,6 +99,19 @@ main {
     text-align: center;
     /* width: 100%; */
     margin: 4%;
+}
+
+.schooling section {
+    margin: 8% 5%;
+    background-color: rgb(220, 219, 219);
+    border-radius: 20px;
+    box-shadow: 5px 5px #000;
+}
+
+.schooling p {
+    font-size: 1.3em;
+    margin: 0.5% 0;
+    padding: 2%;
 }
 
 img {
@@ -174,6 +191,9 @@ footer a {
 
 /* Media query for desktop viewport */
 @media screen and (min-width: 1115px) {
+    .desktop {
+        display: block;
+    }
 
     /* Style rules for the nav section */
     nav li:hover {
@@ -181,7 +201,7 @@ footer a {
     }
 
     /*Desktop viewport: Style rules for main section*/
-    img {
+    .portfolio-image {
         float: right;
         margin: 0 7%;
     }
@@ -191,7 +211,7 @@ footer a {
         width: 50%;
     }
 
-    .main-content, img {
+    .main-content, .portfolio-image {
         margin-bottom: 5%;
     }
 
@@ -204,11 +224,13 @@ footer a {
         border-top: #000 solid 2px;
     }
 
-    #wv, #ky, #nicaragua {
-        width: 25%;
-        margin: 2.5% 4%;
-        font-size: 1.3em;
-        float: left;
+    .volunteer-info h2 {
+        margin-bottom: 2%;
+    }
+
+    .volunteer-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
 
     #map-container.main-content {
@@ -216,14 +238,12 @@ footer a {
         margin: 2% 0;
     }
 
-    .schooling section {
-        margin: 0 0 5% 2%;
-        font-size: 1.3em;
+    .schooling p {
+        width: 65%;
     }
 
-    .schooling p {
-        margin-bottom: 2%;
-        width: 60%;
+    figcaption {
+        text-align: center;
     }
 
     /*Desktop viewport: Style rules for footer*/
