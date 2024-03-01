@@ -102,7 +102,7 @@ main {
 }
 
 .schooling section {
-    margin: 8% 5%;
+    margin: 5% 5%;
     background-color: rgb(220, 219, 219);
     border-radius: 20px;
     box-shadow: 5px 5px #000;
@@ -119,6 +119,10 @@ img {
     display: block;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 /* Style rules for the footer */
@@ -238,12 +242,13 @@ footer a {
         margin: 2% 0;
     }
 
-    .schooling p {
-        width: 65%;
+    .schooling section {
+        display: grid;
+        grid-template-columns: 65% auto;
     }
 
-    figcaption {
-        text-align: center;
+    .schooling figure {
+        margin: 5% 0;
     }
 
     /*Desktop viewport: Style rules for footer*/
