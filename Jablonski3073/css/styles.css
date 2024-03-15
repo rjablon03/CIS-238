@@ -1,14 +1,126 @@
+/* Ryan Jablonski 3/15/24 */
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 
-
-
-
-
-
-
-
+/* Style rule for custom font header */
 header h1 {
     font-family: "Kalnia", serif;
     font-size: 3em;
     text-shadow: 4px 4px 12px #213b45;
     color: #fff;
 }
+
+/* Style rules for body and images */
+body {
+    background-color: #557e9c;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule to hide elements on mobile viewport. Elements will be visible only on larger viewports (laptops and desktops) */
+.larger-viewport {
+    display: none;
+}
+
+/* Style rule for header content */
+header {
+    text-align: center;
+    padding: 1%;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #0d1431;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 1.15em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    border: 1px solid #e3eef2;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e3eef2;
+}
+
+/* Style rules for the aside */
+aside {
+    border: 1px solid #417589;
+    padding: 2%;
+    background-color: #92b2be;
+    box-shadow: 4px 4px 10px #000;
+}
+
+aside ul {
+    margin-left: 8%;
+}
+
+aside ul li {
+    color: #fff;
+}
+
+/* Style rules for intro paragraphs */
+#intro {
+    font-weight: bold;
+}
+
+/* Style rules for footer content */
+footer p{
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Style rule for main, aside, and footer content to revise the font family and size */
+main, aside, footer {
+    font-family: Arial, sans-serif;
+    font-size: .9em;
+}
+
+/* Media Query includes style rules to make elements visible on larger viewports (laptops and desktops) and make design adjustments for larger viewports. */
+@media screen and (min-width: 600px){
+    .larger-viewport {
+        display: block;
+    }
+
+    nav li {
+        display: inline-block;
+        border: none;
+    }
+
+    #container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .grid {
+        
+    }
+
+} /* Closing brace for media query */
