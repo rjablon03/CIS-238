@@ -1,12 +1,13 @@
-/* Ryan Jablonski 3/15/24 */
+/* Ryan Jablonski 3/17/24 */
+
 /* CSS Reset */
-* {
+body, header, nav, main, footer, img, h1, ul, article {
     margin: 0;
     border: 0;
     padding: 0;
 }
 
-/* Style rule for custom font header */
+/* Style rule for custom font in header */
 header h1 {
     font-family: "Kalnia", serif;
     font-size: 3em;
@@ -24,7 +25,7 @@ img {
     display: block;
 }
 
-/* Style rule to hide elements on mobile viewport. Elements will be visible only on larger viewports (laptops and desktops) */
+/* Style rule to hid elements on mobile viewport. Elements will be visible only on larger viewports (laptops and desktops) */
 .larger-viewport {
     display: none;
 }
@@ -47,7 +48,7 @@ nav ul {
 
 nav li {
     font-size: 1.15em;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Verdana, arial, sans-serif;
     font-weight: bold;
     border: 1px solid #e3eef2;
 }
@@ -78,17 +79,17 @@ aside ul {
     margin-left: 8%;
 }
 
-aside ul li {
+aside ul li a {
     color: #fff;
 }
 
-/* Style rules for intro paragraphs */
+/* Style rules for intro paragraphs on home page */
 #intro {
     font-weight: bold;
 }
 
 /* Style rules for footer content */
-footer p{
+footer {
     text-align: center;
     color: #fff;
 }
@@ -99,12 +100,12 @@ footer a {
 
 /* Style rule for main, aside, and footer content to revise the font family and size */
 main, aside, footer {
-    font-family: Arial, sans-serif;
-    font-size: .9em;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
 }
 
 /* Media Query includes style rules to make elements visible on larger viewports (laptops and desktops) and make design adjustments for larger viewports. */
-@media screen and (min-width: 600px){
+@media screen and (min-width: 804px) {
     .larger-viewport {
         display: block;
     }
@@ -120,7 +121,17 @@ main, aside, footer {
     }
 
     .grid {
-        
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
     }
 
 } /* Closing brace for media query */
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+
+} /* Closing brace for print media query */
