@@ -145,6 +145,20 @@ figcaption {
     text-align: center;
 }
 
+#work-experience dt {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+#work-experience dd {
+    margin-bottom: 5%;
+}
+
+#work-experience dl {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Style rules for the footer */
 footer {
     /* clear: both; */
@@ -219,6 +233,10 @@ footer a {
         display: block;
     }
 
+    .mobile-tablet {
+        display: none;
+    }
+
     /* Style rules for the nav section */
     nav li:hover {
         background-color: #b1b1b1;
@@ -269,6 +287,26 @@ footer a {
 
     .schooling figure {
         margin: 5% 0;
+    }
+
+    #work-experience {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    caption {
+        font-size: 1.75em;
+        font-weight: bold;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: #000 solid 1px;
+        text-align: center;
+        padding: 2%;
     }
 
     /*Desktop viewport: Style rules for footer*/
