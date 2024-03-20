@@ -42,6 +42,61 @@
             <h2>Map of GVSU</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.671713717358!2d-85.8916153233057!3d42.96412207114317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a31f0c9d398f%3A0xea0367b3e0ec32fa!2sGrand%20Valley%20State%20University!5e0!3m2!1sen!2sus!4v1706290271407!5m2!1sen!2sus" width="550" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
         </section>
+
+        <section class="main-content" id="feedback-form">
+            <h2>Website Feedback</h2>
+            <p>Do you like my website? Is there something that could be done better? Feel free to fill out the form below and let me know!</p>
+
+            <form>
+                <fieldset class="block-inputs">
+                    <legend>User Information</legend>
+
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname">
+
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+
+                </fieldset>
+
+                <fieldset class="block-inputs">
+                    <legend>Pages Referenced</legend>
+
+                    <input type="checkbox" name="webpages" id="home" value="Home Page">
+                    <label for="home">Home Page</label>
+
+                    <input type="checkbox" name="webpages" id="about" value="About Page">
+                    <label for="about">About Page</label>
+
+                    <input type="checkbox" name="webpages" id="work" value="Work Page">
+                    <label for="work">Work Page</label>
+
+                    <input type="checkbox" name="webpages" id="schooling" value="Schooling Page">
+                    <label for="schooling">Schooling Page</label>
+
+                    <input type="checkbox" name="webpages" id="contact" value="Contact Page">
+                    <label for="contact">Contact Page</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Feedback</legend>
+
+                    <textarea name="feedback" cols="30" rows="10"></textarea>
+
+                </fieldset>
+
+                <fieldset id="form-buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                </fieldset>
+
+            </form>
+
+        </section>
     </main>
 
     <!-- Contact Info -->
