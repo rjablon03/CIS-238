@@ -171,14 +171,19 @@ figcaption {
 }
 
 #feedback-form form {
-    padding: 10%;
+    padding: 1%;
 }
 
 #feedback-form fieldset {
     background-color: #95d1ff;
     padding: 5%;
     border-radius: 10px;
-    margin: 3%;
+    margin: 2%;
+}
+
+#feedback-form textarea {
+    display: block;
+    margin: 0 auto;
 }
 
 #form-buttons {
@@ -198,7 +203,7 @@ figcaption {
     box-shadow: 10px 5px 5px #000;
 }
 
-.block-inputs input {
+#text-inputs input {
     display: block;
 }
 
@@ -268,6 +273,15 @@ footer a {
         margin: 0 5%;
         font-size: 1.3em;
     }
+
+    #check-inputs {
+        text-align: center;
+    }
+
+    #check-inputs input {
+        margin: 0.25em;
+    }
+
 } /************************* End of Tablet viewport *************************/
 
 /* Media query for desktop viewport */
