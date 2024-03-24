@@ -164,6 +164,7 @@ figcaption {
     width: 90%;
     margin: 0 auto;
     border-radius: 20px;
+    padding: 2%;
 }
 
 #feedback-form h2 {
@@ -274,12 +275,20 @@ footer a {
         font-size: 1.3em;
     }
 
+    #feedback-form {
+        width: 80%;
+    }
+
     #check-inputs {
         text-align: center;
     }
 
     #check-inputs input {
         margin: 0.25em;
+    }
+
+    #feedback-form textarea{
+        width: 80%;
     }
 
 } /************************* End of Tablet viewport *************************/
@@ -364,6 +373,11 @@ footer a {
         border: #000 solid 1px;
         text-align: center;
         padding: 2%;
+    }
+
+    #feedback-form {
+        width: 60%;
+        clear: both;
     }
 
     /*Desktop viewport: Style rules for footer*/
