@@ -98,6 +98,38 @@ main {
     margin: 1.25em;
 }
 
+#hobbies {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#hobbies h2 {
+    margin-top: 5%;
+}
+
+.hobby-blocks {
+    border: #000 2px solid;
+    border-radius: 20px;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.hobby-blocks:nth-child(2) {
+    margin-top: 0;
+}
+
+#audio-intro {
+    margin-top: 50px;
+}
+
+.hobby-blocks ul {
+    list-style-type: none;
+}
+
+.hobby-blocks ul li {
+    margin: 2%;
+}
+
 #map {
     /* border: #000 solid .3em; */
     max-width: 100%;
@@ -275,6 +307,12 @@ footer a {
         font-size: 1.3em;
     }
 
+    .hobby-blocks {
+        width: 50%;
+        height: 50%;
+        padding: .5em;
+    }
+
     #feedback-form {
         width: 80%;
     }
@@ -330,6 +368,7 @@ footer a {
     .volunteer-info {
         clear: both;
         border-top: #000 solid 2px;
+        border-bottom: #000 solid 2px;
     }
 
     .volunteer-info h2 {
@@ -339,6 +378,7 @@ footer a {
     .volunteer-wrapper {
         display: grid;
         grid-template-columns: auto auto auto;
+        margin-bottom: 6%;
     }
 
     #map-container.main-content {
