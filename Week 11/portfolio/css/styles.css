@@ -111,11 +111,7 @@ main {
     border: #000 2px solid;
     border-radius: 20px;
     width: 80%;
-    margin: 5% auto;
-}
-
-.hobby-blocks:nth-child(2) {
-    margin-top: 0;
+    margin: 2% auto;
 }
 
 #audio-intro {
