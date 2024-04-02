@@ -21,13 +21,6 @@ body {
     display: block;
 }
 
-/* Style rules for the header section */
-header {
-    text-align: center;
-    color: #fff;
-    background-color: #7cb9e8;
-}
-
 .tablet-desktop {
     display: none;
 }
@@ -36,40 +29,53 @@ header {
     display: none;
 }
 
-/*  Style rules for the nav section */
-nav {
-    text-align: center;
-    padding: 20px 0;
+/* Style rules for the header section */
+header {
+    color: #fff;
     background-color: #7cb9e8;
+    padding-bottom: 2%;
 }
 
-nav ul {
-    list-style-type: none;
+header h1, h2 {
+    margin-left: 3%;
 }
 
-nav li {
-    /*display: inline-block;*/
-    padding: .2em .5em;
-    margin: 1em .6em;
+.menu-icon {
+    font-size: 2em;
+    color: #fff;
+    float: right;
+    clear: both;
+    margin: 3% 5% 0 0;
+}
+
+/* Style rules for mobile nav section */
+#menu-links {
+    display: none;
+}
+
+nav {
+    background-color: #7cb9e8;
+    text-align: center;
     font-size: 1.3em;
-    border-radius: 20px;
-    background-color: #fff;
 }
 
-nav li a {
+nav a {
+    display: block;
+    color: #fff;
     text-decoration: none;
-    color: #000;
+    padding: 3% 0;
+    border-top: #fff solid 1px;
+}
+
+.menu-links {
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* Style rules for the main section */
 main {
     margin: 2em 0;
 }
-
-/* .main-content {
-    width: 70%;
-    float: left;
-} */
 
 .main-content p {
     padding: 1em;
@@ -267,14 +273,16 @@ footer a {
         display: block;
     }
 
-    /* Tablet viewport: Style rules for the nav area */
-    nav li {
-        display: inline-block;
-        margin: 0;
-        background-color: #fff;
-        padding: 0 .6em;
-        border-radius: 20px;
+    .mobile-nav {
+        display: none;
     }
+
+    /* Tablet viewport: Style rules for the nav area */
+    .menu-icon {
+        display: none;
+    }
+
+    /* Continue here */
 
     /* Tablet Viewport: Styles rules for main area */
     .is-major {

@@ -19,14 +19,31 @@
     <link rel="icon" sizes="192x192" href="images/favicons/android-chrome-192x192.png">
 </head>
 <body>
+
+    <!-- Hamburger menu icon -->
+    <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+    </a>
+
     <!-- Introduction to the page -->
     <header>
         <h1>Ryan Jablonski</h1>
         <h2>Aspiring Web Developer</h2>
     </header>
 
+    <!-- Mobile navigation menu -->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="work.html">Work</a>
+            <a href="schooling.html">Schooling</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
     <!-- Navigation bar leading to the other pages in my portfolio -->
-    <nav>
+    <nav class="tablet-desktop">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
@@ -106,4 +123,7 @@
         <p><a href="tel:+16167956653">Call Me!</a></p>
     </footer>
 </body>
+
+<script src="scripts/scripts.js"></script>
+
 </html>
