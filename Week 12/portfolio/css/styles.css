@@ -53,13 +53,13 @@ header h1, h2 {
     display: none;
 }
 
-nav {
+.mobile-nav {
     background-color: #7cb9e8;
     text-align: center;
     font-size: 1.3em;
 }
 
-nav a {
+.mobile-nav a {
     display: block;
     color: #fff;
     text-decoration: none;
@@ -273,16 +273,43 @@ footer a {
         display: block;
     }
 
-    .mobile-nav {
+    .menu-icon, .mobile-nav {
         display: none;
+    }
+
+    /* Tablet viewport: Style rules for header */
+    header {
+        padding: 0;
+    }
+
+    header h1, h2 {
+        margin: 0;
+        text-align: center;
     }
 
     /* Tablet viewport: Style rules for the nav area */
-    .menu-icon {
-        display: none;
+    nav {
+        text-align: center;
+        background-color: #7cb9e8;
     }
 
-    /* Continue here */
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: .2em .5em;
+        margin: 1em .2em;
+        font-size: 1.3em;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: #000;
+    }
 
     /* Tablet Viewport: Styles rules for main area */
     .is-major {
@@ -348,6 +375,7 @@ footer a {
     /* Style rules for the nav section */
     nav li:hover {
         background-color: #b1b1b1;
+        transform: scale(1.15);
     }
 
     /*Desktop viewport: Style rules for main section*/
