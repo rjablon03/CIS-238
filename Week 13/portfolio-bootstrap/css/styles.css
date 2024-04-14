@@ -1,0 +1,16 @@
+body {
+    background-color: #222831;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.container {
+    background-color: #31363f;
+    clear: both;
+}
+
+.container h1 {
+    color: #6c9dfb;
+}
